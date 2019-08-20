@@ -1,0 +1,11 @@
+.outer_container {
+    border: 1px solid black;
+    height: 650px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}

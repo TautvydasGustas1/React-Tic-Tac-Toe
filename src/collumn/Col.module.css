@@ -1,0 +1,13 @@
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.333333%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    
+}
+
+.col-inner {
+    margin: auto;
+    font-size: 3em;
+}
