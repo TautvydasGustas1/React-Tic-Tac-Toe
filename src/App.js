@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
 import Layout from './containers/Layout/Layout';
-import LeftSide from './containers/LeftSide/LeftSide';
 import Board from './Board/Board';
+import RightSide from './containers/RightSide/RightSide';
+import Info from './containers/Info/Info';
 
 function App() {
   return (
     <Layout>
-      <LeftSide>
-          <Board/>
-      </LeftSide>
+    <Board/>
+        <div className="headerDivider"></div>
+      <RightSide>
+        <Info/>
+      </RightSide>
     </Layout>
   );
 }

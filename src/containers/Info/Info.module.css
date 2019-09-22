@@ -1,0 +1,10 @@
+.info-container {
+    width: 25%;
+    border: 1.5px solid black;
+    position: fixed;
+    margin-left: 15%;
+}
+
+.info-container_inner {
+    text-align: center;
+}

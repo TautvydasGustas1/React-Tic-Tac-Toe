@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './LeftSide.module.css';
+import styles from './RightSide.module.css';
 
-const leftSide = (props) => (
+const RightSide = (props) => (
         <div className={styles.container}>
             {props.children}
         </div>
 );
 
-export default leftSide;
+export default RightSide;
